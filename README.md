@@ -1,5 +1,5 @@
 
-# 🔧 Python-to-C Compiler (CLI-Based)
+# 🔧 Python-to-C Compiler 
 
 A modular  tool that simulates the **phases of a compiler** and converts generalized Python code into optimized C code. This project is built with a focus on **learning**, **code translation**, and **compiler design concepts**—ideal for students, developers, and researchers.
 
