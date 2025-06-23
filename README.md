@@ -47,7 +47,6 @@ This will:
 
 ---
 
-Absolutely, Varsha! Here's how to turn your Python-to-C compiler into a **command-line tool** 🚀
 
 ---
 
