@@ -1,12 +1,7 @@
-# Python-2-C
-Python-to-C Compiler (CLI-Based):A modular command-line tool that simulates the phases of a compiler. It translates generalized Python code into optimized C code. Designed for educational use, compiler design projects, and showcasing low-level code translation concepts.
-Here’s a well-structured and crisp **`README.md`** for your CLI-based Python-to-C Compiler project:
-
----
 
 # 🔧 Python-to-C Compiler (CLI-Based)
 
-A modular command-line tool that simulates the **phases of a compiler** and converts generalized Python code into optimized C code. This project is built with a focus on **learning**, **code translation**, and **compiler design concepts**—ideal for students, developers, and researchers.
+A modular  tool that simulates the **phases of a compiler** and converts generalized Python code into optimized C code. This project is built with a focus on **learning**, **code translation**, and **compiler design concepts**—ideal for students, developers, and researchers.
 
 ---
 
