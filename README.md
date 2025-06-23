@@ -143,6 +143,28 @@ Then install:
 pip install .
 py2c sample.py -o translated.c
 ```
+✅ Code_optimizer
+Basic Block Division – logically separates the C code into blocks based on control flow.
+Loop-Invariant Code Motion – identifies and moves computations that don't depend on loop variables outside the loop.
+
+✅ Example Optimization Result:
+```bash
+ Original Loop:
+for (i = 0; i < 10; i++) {
+    z = x * y;
+    printf("%d\n", z);
+}
+```
+✅ Optimized Version:
+```bash
+// Loop-invariant code motion:
+    z = x * y;
+
+for (i = 0; i < 10; i++) {
+    printf("%d\n", z);
+}
+```
+
 
 ## ✅ Educational Use
 
