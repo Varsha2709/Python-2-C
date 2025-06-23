@@ -1,35 +1,35 @@
 
-# 🔧 Python-to-C Compiler 
+#  Python-to-C Compiler 
 
 A modular  tool that simulates the **phases of a compiler** and converts generalized Python code into optimized C code. This project is built with a focus on **learning**, **code translation**, and **compiler design concepts**—ideal for students, developers, and researchers.
 
 ---
 
-## 🚀 Features
+##  Features
 
 * ✅ **Lexical Analysis**
   Extracts tokens using regex and identifies syntax units from the input Python code.
 
-* 🧠 **Syntax Analysis**
+*  ✅**Syntax Analysis**
   Uses Python’s AST module to parse and validate code structure.
 
-* 🧩 **Semantic Analysis**
+* ✅ **Semantic Analysis**
   Detects unreachable code, insecure constructs (like `eval`), and semantic issues.
 
-* 🔃 **Three Address Code (TAC) Generation**
+* ✅ **Three Address Code (TAC) Generation**
   Converts arithmetic and assignment expressions into TAC format.
 
-* 🔁 **Python-to-C Translation**
+* ✅ **Python-to-C Translation**
   Translates constructs like `print`, `if`, `for`, `while`, and basic expressions to equivalent C code.
 
-* 🚀 **Code Optimization**
+* ✅ **Code Optimization**
   Performs **loop-invariant code motion** and identifies **basic blocks** for better code structure and performance.
 
 ---
 
 
 
-### 📦 Requirements
+### ✅ Requirements
 
 * Python 3.x (No external libraries needed)
 
@@ -65,7 +65,7 @@ python_to_c_compiler/
 
 ---
 
-### 🧠 `compiler.py` – Main Logic (modularized)
+### ✅ `compiler.py` – Main Logic (modularized)
 
 We split your code into **functions** that can be called from the CLI or GUI app:
 
@@ -121,7 +121,7 @@ python p2c_gui.py
 
 ---
 
-### 📦 Make It Installable as a CLI Tool
+### ✅ Make It Installable as a CLI Tool
 
 Create a `setup.py` if you want to install it:
 
@@ -145,7 +145,7 @@ pip install .
 py2c sample.py -o translated.c
 ```
 
-## 📚 Educational Use
+## ✅ Educational Use
 
 This project is perfect for:
 
